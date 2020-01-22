@@ -1,7 +1,8 @@
 <?php
+session_start(); // start session
 $db_username ='root';// Mysql username anda
-$db_password ='root'; // Mysql database password anda
-$db_name ='shoping'; //Mysql nama database anda
+$db_password =''; // Mysql database password anda
+$db_name ='shopping'; //Mysql nama database anda
 $db_host ='localhost';//Mysql hostname atau IP anda
 
 function convert_to_rupiah($angka)
